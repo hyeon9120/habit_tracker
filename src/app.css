@@ -1,0 +1,34 @@
+.habit-box {
+  border: 1px solid #ddd;
+  padding: 12px;
+  width: 400px;
+  display: flex;
+}
+.habit-name {
+  flex: 0 0 auto;
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 24px;
+}
+.habit-count {
+  flex: 1 1 auto;
+  display: inline-block;
+  font-size: 24px;
+}
+.button-box {
+  flex: 0 0 auto;
+}
+.habit-button {
+  border: 0 none;
+  background-color: transparent;
+  font-size: 2rem;
+}
+.habit-button:active {
+  opacity: 0.8;
+}
+.habit-increase {
+  color: crimson;
+}
+.habit-decrease {
+  color: darkblue;
+}
